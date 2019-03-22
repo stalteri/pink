@@ -1,0 +1,151 @@
+/* Large Devices, Wide Screens */
+/*1170*/
+@media only screen and (max-width :1200px) {
+	.wrapper{
+		width: 1024px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.wrapper{
+		width: 735px;
+		padding-left: 28px;
+		padding-right: 28px;
+	}
+	.site-title{
+	  font-size: 45px;
+	  padding-bottom: 15px;
+	}
+	.site-subtitle{
+	  font-size: 20px;
+	  padding-bottom: 60px;
+	}
+	.flover-section-elipses{
+	  padding-bottom: 20px;
+	}
+	.sm-col-2x{
+		width: 50%;
+		flex-basis: 50%;
+	}
+	.middle-section-title {
+		font-size: 25px;
+		padding-top: 30px;
+		padding-bottom: 10px;
+	}
+	.middle-section-subtitle {
+	    font-size: 14px;
+	    padding: 0 15px 30px;
+	}
+	.middle-section-circle {
+	    margin-bottom: 30px;
+	}
+	.flover-section-elipses img{
+		width: 120px;
+	}
+	.bottom-section-title {
+	    font-size: 20px;
+	}
+	.bottom-section-text p {
+	    font-size: 13px;
+	    line-height: 15px;
+	}
+	.bottom-section-img {
+	    max-width: 170px;
+	}
+	.footer-menu-title {
+	    padding: 30px 0 20px;
+	    font-size: 15px;
+	}
+	.footer-menu-col a {
+	    font-size: 12px;
+	    display: block;
+	    padding-bottom: 5px;
+	}
+	.footer-links-row a {
+	    line-height: 40px;
+	    font-size: 26px;
+	    width: 40px;
+	    height: 40px;
+	    margin: 48px 0px 20px;
+	}
+	.copyright {
+	    font-size: 13px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.wrapper{
+		width: 465px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.header-content {
+		display: block;
+	}
+	.header-menu {
+	    justify-content: center;
+	    flex-wrap: nowrap;
+	}
+	.header-menu li a{
+		font-size: 14px;
+	}
+	.header-menu li:last-of-type a{
+	  margin-left: 0;
+	}
+	.xs-col-1x{
+		width: 100%;
+		flex-basis: 100%;
+	}
+	.site-title{
+	  font-size: 35px;
+	  padding-bottom: 10px;
+	}
+	.site-subtitle{
+	  font-size: 15px;
+	  padding-bottom: 30px;
+	}
+	.middle-section-title {
+		font-size: 18px;
+	}
+	.middle-section-subtitle {
+	    font-size: 12px;
+	}
+	.bottom-section-title {
+		text-align: center;
+	    font-size: 15px;
+	}
+	.bottom-section-text p {
+	    font-size: 12px;
+	    line-height: 14px;
+	}
+	.bottom-section-img {
+	    margin: 0 auto;
+	}
+	.bottom-section-row {
+	    display: block;
+	    justify-content: flex-start;
+	    margin-bottom: 40px;
+	}
+	.footer-menu{
+		display: none;
+	}
+	.footer-row{
+		justify-content: center;
+		padding-bottom: 20px;
+	}.footer-links-row a {
+	    margin: 30px 0px 15px;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.wrapper{
+		width: 100%;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	
+}
